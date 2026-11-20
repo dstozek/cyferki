@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#17291f">
+  <meta name="description" content="Mała zagadka, wielka przygoda. Wpisz cztery cyfry i odkryj skarb!">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Cyferki">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/skarb.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Cyferki — tajemniczy skarb</title>
+</head>
+<body>
+  <main class="adventure" id="main">
+    <div class="sky-glow" aria-hidden="true"></div>
+    <header class="brand" aria-label="Cyferki">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48" role="img"><path d="M24 4 43 39H5L24 4Z"/><path d="m24 14 8.7 16H15.3L24 14Z"/><circle cx="24" cy="35" r="2.3"/></svg>
+      </span>
+      <span>CYFERKI</span>
+    </header>
+
+    <section class="quest-card" aria-labelledby="title">
+      <div class="ornament ornament-top" aria-hidden="true"><span>✦</span><i></i><span>✧</span><i></i><span>✦</span></div>
+      <div class="eyebrow"><span class="sparkle" aria-hidden="true">✧</span> TAJEMNICA CZEKA <span class="sparkle" aria-hidden="true">✧</span></div>
+      <h1 id="title">Otwórz<br><span>bramę skarbu</span></h1>
+      <p class="intro">Wpisz cztery cyfry, które wskażą drogę.</p>
+
+      <form id="code-form" novalidate>
+        <label class="sr-only" for="code">Czterocyfrowy kod</label>
+        <div class="code-wrap">
+          <input id="code" name="code" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="4" autocomplete="one-time-code" placeholder="••••" aria-describedby="hint feedback" aria-label="Wpisz czterocyfrowy kod" required>
+          <span class="input-rule" aria-hidden="true"></span>
+        </div>
+        <p class="hint" id="hint">Wpisz kod i ruszaj na poszukiwanie!</p>
+        <button class="submit-button" type="submit">
+          <span>SPRAWDŹ KOD</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h13m-5-5 5 5-5 5"/></svg>
+        </button>
+      </form>
+
+      <div class="feedback" id="feedback" role="status" aria-live="polite" aria-atomic="true"></div>
+      <div class="reveal" id="reveal" aria-hidden="true">
+        <div class="treasure" aria-hidden="true"><span>✦</span></div>
+        <p class="reveal-label">TAJEMNICZE SŁOWA BRZMIĄ...</p>
+        <p class="secret">TO BE DECIDED LATER</p>
+      </div>
+      <div class="ornament ornament-bottom" aria-hidden="true"><i></i><span>✧</span><i></i></div>
+    </section>
+
+    <footer class="footer"><span class="leaf" aria-hidden="true">❧</span> Każda wielka przygoda zaczyna się od zagadki <span class="leaf" aria-hidden="true">❧</span></footer>
+  </main>
+  <div class="ambient ambient-one" aria-hidden="true">✦</div><div class="ambient ambient-two" aria-hidden="true">✧</div><div class="ambient ambient-three" aria-hidden="true">✦</div>
+  <script src="app.js" defer></script>
+</body>
+</html>
+
