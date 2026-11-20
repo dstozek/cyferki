@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Cyferki — tajemniczy skarb",
-  "short_name": "Cyferki",
-  "description": "Mała zagadka, wielka przygoda. Wpisz cztery cyfry i odkryj skarb!",
+  "name": "Kod Koroków",
+  "short_name": "Kod Koroków",
+  "description": "Kod Koroków czeka na odkrycie. Wpisz cztery cyfry i znajdź tajemnicze słowa.",
   "lang": "pl",
   "start_url": "./",
   "scope": "./",

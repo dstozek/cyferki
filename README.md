@@ -1,4 +1,4 @@
-# Cyferki
+# Kod Koroków
 
 Mała zagadka, wielka przygoda. To statyczna, polskojęzyczna strona z czterocyfrowym kodem i lokalnie syntetyzowanym dźwiękiem odkrycia.
 

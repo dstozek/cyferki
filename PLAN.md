@@ -1,9 +1,9 @@
-# Cyferki — projekt i plan publikacji
+# Kod Koroków — projekt i plan publikacji
 
 ## Ustalenia
 
-- Nazwa: **Cyferki**.
-- Jednoekranowa, polskojęzyczna zagadka dla dzieci; kod `2016` odsłania `TO BE DECIDED LATER`.
+- Nazwa: **Kod Koroków**.
+- Jednoekranowa, polskojęzyczna zagadka dla dzieci; kod `2016` odsłania `LATARNIA`.
 - Błędny kod zachęca do kolejnej próby.
 - Sukces ma krótką animację i cichy, generowany lokalnie dźwięk.
 - Stan resetuje się przy każdym nowym uruchomieniu strony.
